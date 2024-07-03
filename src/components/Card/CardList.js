@@ -23,7 +23,7 @@ const CardsList = () => {
     .finally(function () {
       // always executed
     });
-  }, [setRecords]);
+  }, [setRecords, User.user.email]);
 
   const handleDelete = async (id) => {
     try {

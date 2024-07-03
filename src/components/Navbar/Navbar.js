@@ -13,6 +13,7 @@ const Navbar = () => {
 
   console.log(User);
 
+  
   const handleLogOut = () => {
     dispatch({ type: "LOGOUT" });
     navigate("/");
