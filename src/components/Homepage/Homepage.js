@@ -1,7 +1,7 @@
 import React from 'react';
 import './Homepage.css';
-import piechart from "/Users/ravirajbhosale/Desktop/React/expense_tracker/src/assests/my expenses analysis.PNG"
-import barchart from "/Users/ravirajbhosale/Desktop/React/expense_tracker/src/assests/th-3.jpeg"
+import piechart from "../../assests/my-expenses-analysis.jpeg"
+import barchart from "../../assests/th-3.jpeg"
 import { useNavigate } from 'react-router-dom';
 
 const Homepage = () => {
